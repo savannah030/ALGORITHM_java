@@ -6,8 +6,7 @@ import java.util.StringTokenizer;
 
 public class Main {
    
-    static 
-    class Tomato{
+    static class Tomato{
         int x;
         int y;
     
