@@ -19,19 +19,7 @@ public class Main {
         }
         String[] arr = br.readLine().split(" "); // M!=0일 때만 입력받기
 
-        //케이스 2: 버튼이 다 고장난 경우
-        if(M==10) {
-            System.out.println(Math.abs(N-100)); // + 또는 - 로만 이동해야함
-            return;
-        }
-        
-        // 케이스 3: 지금 100번인 경우
-        if (N==100){    
-            System.out.println(0); // 이동할 필요없음
-            return;
-        }
-        
-        // 케이스 4: 그 외 경우
+        // 케이스 2: 그 외 경우
         Boolean[] broken = new Boolean[10];
         Arrays.fill(broken,false); 
         for(String a: arr){ 
